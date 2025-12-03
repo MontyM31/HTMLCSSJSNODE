@@ -1,0 +1,172 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-header{
+    background-image: url("/Assets/imagenes+optimizadas/bg-header-min.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 18.75em;
+
+}
+
+
+.bg-nav{
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 1.5em 0;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navbar-brand{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.nav-link{
+    font-size: 0.8rem;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: rgb(5, 5, 5);
+    padding: 0.3em;
+    
+}
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(107, 82, 82, 0.438);
+    border-radius: 0.5em;
+    
+}
+
+.navbar-brand img{
+    width: 2em;
+    height: 2em;
+    
+}
+
+.navbar-var{
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/*Css*/
+
+.card-body {
+    padding: 1em;
+}
+.card-body p {
+    font-weight: 100;
+}
+.card-body h3 {
+    font-size: 0.5rem;
+    margin:  1em;
+    font-weight: 500;
+}
+
+
+.card {
+    background-color:  #A6444C;
+    color: white;
+    overflow: hidden;
+    border-radius: 0.5em;
+
+}
+
+.card-img{
+    width: 100%;
+}
+
+.btn-info {
+    display: inline-block;
+    background-color: #D9D2C5;
+    color: #0F2620;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main {
+    margin-top: -3em;
+    background-color: #d9d2c58f;
+    border-radius: 10px;
+}
+
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: rgb(83, 69, 69);
+    border-radius: 10px;
+}
+
+.nosotros-col-img{
+    background-image: url('/Assets/imagenes+optimizadas/nosotros-min.png');
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    order: 2;
+    border-radius: 10px;
+}
+
+.nosotros-col-text{
+    order: 1;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+.nosotros-body{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nosotros-body p{
+    font-weight: 200;
+}
+
+/* Foooter */
+.bgfooter{
+    background-color: rgb(90, 65, 65);
+}
+
+.bgfooter p {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    color: #D9D2C5;
+}

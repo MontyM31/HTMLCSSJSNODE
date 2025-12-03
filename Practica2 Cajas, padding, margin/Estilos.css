@@ -1,0 +1,71 @@
+.bordersolid{
+    border-style: solid;
+}
+
+.borderdasher{
+    border-style: dashed;
+}
+.inline{
+    display: inline;
+}
+
+.block{
+ display: block;
+}
+
+.pt{
+    padding-top: 50px;
+}
+
+.pb{
+    padding-bottom: 50px;
+}
+
+.textc{
+    text-align: center;
+    font-size: 1rem;
+}
+.pr{
+    padding-right: 50px;
+}
+.pl{
+    padding-left: 50px;
+}
+.pcompleto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.padding{
+    padding:  50px;
+    /*se puede modificar con x y y ejemplo 
+    50px en X y 100px en Y
+    o izquierda50px, derecha20px, arriba75px y abajo60px*/
+}
+
+.w300{
+    width: 300px;
+}
+
+.w100{
+    width: 100px;
+}
+
+.h100{
+    height: 100px;
+}
+.p-50{
+    padding: 50px;
+}
+
+.dinline-block{
+    display: inline-block;
+}
+.margin{
+    margin-top: 50px;
+}
+
+.borderbox{
+    box-sizing: border-box;
+}
